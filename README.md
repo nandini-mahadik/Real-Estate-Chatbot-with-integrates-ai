@@ -111,12 +111,17 @@ RealEstateChatbot/
 ⚙️ Installation & Setup
 1. Clone the repository
 git clone https://github.com/nandini-mahadik/Real-Estate-Chatbot-with-integrates-ai.git
+
 cd RealEstateChatbot
 
 2. Backend Setup
+
 cd backend
+
 python -m venv venv
+
 venv\Scripts\activate
+
 pip install -r requirements.txt
 
 Create .env:
