@@ -28,132 +28,133 @@ Both single-area and multi-area analysis is supported.
 
 1. Natural Language Queries
 
-Users can ask in plain English:
+    Users can ask in plain English:
 
-“Analyze Wakad”
+      “Analyze Wakad”
 
-“Compare Baner and Aundh”
+      “Compare Baner and Aundh”
 
-“Show trend for Hinjewadi from dataset”
+      “Show trend for Hinjewadi from dataset”
 
 2. AI Summary using Groq LLM
 
-Uses Groq API → llama-3.1-70b-versatile
+   Uses Groq API → llama-3.1-70b-versatile
 
-Produces market insights in 5–7 sentences
+  Produces market insights in 5–7 sentences
 
 3. Trend Visualization
 
-Line charts built using Recharts
+  Line charts built using Recharts
 
-Shows:
+  Shows:
 
-Price vs Year
+    Price vs Year
 
-Demand vs Year
+    Demand vs Year
 
 4. Dynamic Data Table
 
-Displays the filtered dataset for each analysis
+  Displays the filtered dataset for each analysis
 
-Works for both single & multi-area queries
+  Works for both single & multi-area queries
 
 5. Excel Download
 
-Export filtered results using POST /download/
+   Export filtered results using POST /download/
 
 6. Dataset Handling
 
-Uses dataset.xlsx
+   Uses dataset.xlsx
 
-Supports dynamic updates using upload API
+   Supports dynamic updates using upload API
 
 🛠️ Tech Stack
+
 => Backend (Django + DRF)
 
-Python 3
+  -Python 3
 
-Django REST Framework
+  -Django REST Framework
 
-Pandas
+  -Pandas
 
-Groq LLM API
+  -Groq LLM API
 
 => Frontend (React)
 
-React 18
+  -React 18
 
-Axios
+  -Axios
 
-Recharts
+  -Recharts
 
-Custom dark theme UI
+  -Custom dark theme UI
 
 ⚙️ Installation & Setup
 1. Clone the repository
 
-git clone https://github.com/nandini-mahadik/Real-Estate-Chatbot-with-integrates-ai.git
+  git clone https://github.com/nandini-mahadik/Real-Estate-Chatbot-with-integrates-ai.git
 
-cd RealEstateChatbot
+  cd RealEstateChatbot
 
 2. Backend Setup
 
-cd backend
+  cd backend
 
-python -m venv venv
+  python -m venv venv
 
-venv\Scripts\activate
+  venv\Scripts\activate
 
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
-=> Create .env:
+  => Create .env:
 
-GROQ_API_KEY=your_groq_key_here
+    GROQ_API_KEY=your_groq_key_here
 
-GROQ_MODEL=llama-3.1-70b-versatile
+    GROQ_MODEL=llama-3.1-70b-versatile
 
-=> Run server:
+  => Run server:
 
-python manage.py runserver
+    python manage.py runserver
 
-=> 3. Frontend Setup
+3. Frontend Setup
 
-cd frontend
+  cd frontend
 
-npm install
+  npm install
 
-npm start
+  npm start
 
 🧪 How to Use the Chatbot
 
-=> Type queries like:
+  => Type queries like:
 
-Analyze Wakad
+    Analyze Wakad
 
-Compare Baner and Aundh
+    Compare Baner and Aundh
 
-Show trend for Hinjewadi
+    Show trend for Hinjewadi
 
 
-=> You will receive:
+  => You will receive:
 
-AI Summary
+    AI Summary
 
-Price + Demand charts
+    Price + Demand charts
 
-Filtered dataset
+    Filtered dataset
 
-Excel download option
+    Excel download option
 
 🎯 Future Enhancements
 
-Add proper dataset 
+  Add proper dataset 
 
-Add property-type filtering
+  Add property-type filtering
 
-Add map visualization
+  Add map visualization
 
-Implement user authentication
+  Implement user authentication
 
-Add “predict next year price” using ML
+ 
 
