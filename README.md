@@ -48,9 +48,9 @@ Both single-area and multi-area analysis is supported.
 
   Shows:
 
-    Price vs Year
+Price vs Year
 
-    Demand vs Year
+Demand vs Year
 
 4. Dynamic Data Table
 
@@ -93,19 +93,19 @@ Both single-area and multi-area analysis is supported.
 ⚙️ Installation & Setup
 1. Clone the repository
 
-  git clone https://github.com/nandini-mahadik/Real-Estate-Chatbot-with-integrates-ai.git
+          git clone https://github.com/nandini-mahadik/Real-Estate-Chatbot-with-integrates-ai.git
 
-  cd RealEstateChatbot
+          cd RealEstateChatbot
 
 2. Backend Setup
 
-  cd backend
+          cd backend
 
-  python -m venv venv
+          python -m venv venv
 
-  venv\Scripts\activate
+          venv\Scripts\activate
 
-  pip install -r requirements.txt
+          pip install -r requirements.txt
 
   => Create .env:
 
@@ -119,32 +119,32 @@ Both single-area and multi-area analysis is supported.
 
 3. Frontend Setup
 
-  cd frontend
+          cd frontend
 
-  npm install
+          npm install
 
-  npm start
+          npm start
 
 🧪 How to Use the Chatbot
 
   => Type queries like:
+  
+  Analyze Wakad
 
-    Analyze Wakad
+  Compare Baner and Aundh
 
-    Compare Baner and Aundh
-
-    Show trend for Hinjewadi
+  Show trend for Hinjewadi
 
 
   => You will receive:
 
-    AI Summary
+   AI Summary
 
-    Price + Demand charts
+   Price + Demand charts
 
-    Filtered dataset
+   Filtered dataset
 
-    Excel download option
+   Excel download option
 
 🎯 Future Enhancements
 
